@@ -10,11 +10,13 @@ I will let fate decide which is which for now.
 | [Rand]         | Class   | [Random] wrapper                       |
 | [Semaphore]    | Class   | Manage shared resources                |
 | [StrokeScaler] | Utility | Dynamically scale [UIStroke] thickness |
+| [Timer]        | Class   | Track time and schedule events         |
 
 [Cache]: src/Cache.luau
 [Rand]: src/Rand.luau
 [Semaphore]: src/Semaphore.luau
 [StrokeScaler]: src/ui/StrokeScaler.luau
+[Timer]: src/Timer.luau
 
 [Random]: https://create.roblox.com/docs/reference/engine/datatypes/Random
 [UIStroke]: https://create.roblox.com/docs/reference/engine/classes/UIStroke
