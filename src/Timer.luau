@@ -1,6 +1,6 @@
 --!strict
 
-local Signal = require(script.Parent.Signal) -- Forked from Sleitnick/RbxUtil
+local Signal = require(script.Parent.Signal) -- Sleitnick/RbxUtil
 
 
 local Timer = {}
@@ -11,13 +11,13 @@ export type Timer = typeof(setmetatable({} :: {
 	duration: number,
 	timeLeft: number,
 	speed: number,
-	onTick: (number) -> (),
+	onTick: (timeLeft: number) -> (),
 	Stopped: Signal.Signal<any>,
 	Completed: Signal.Signal<any>
 }, Timer))
 
 
-function Timer.new(onTick: (number) -> ()): Timer
+function Timer.new(onTick: (timeLeft: number) -> ()): Timer
 	return setmetatable({
 		running = false,
 		duration = 0,
