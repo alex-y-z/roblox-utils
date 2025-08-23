@@ -8,6 +8,7 @@ I will let fate decide which is which for now.
 
 | Module         | Type    | Description                                |
 |----------------|---------|--------------------------------------------|
+| [Bezier]       | Class   | [Bézier curve] representation              |
 | [Cache]        | Class   | Cache objects across modules               |
 | [Rand]         | Class   | [Random] wrapper                           |
 | [Semaphore]    | Class   | Manage shared resources                    |
@@ -23,6 +24,7 @@ I will let fate decide which is which for now.
 - **Utility:** library of functions 
 
 
+[Bezier]: src/Bezier.luau
 [Cache]: src/Cache.luau
 [Rand]: src/Rand.luau
 [Semaphore]: src/Semaphore.luau
@@ -31,6 +33,7 @@ I will let fate decide which is which for now.
 [Timer]: src/Timer.luau
 [Tween]: src/Tween.luau
 
+[Bézier curve]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve
 [Random]: https://create.roblox.com/docs/reference/engine/datatypes/Random
 [UIStroke]: https://create.roblox.com/docs/reference/engine/classes/UIStroke
 [tableLib]: https://create.roblox.com/docs/reference/engine/libraries/table
