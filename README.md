@@ -1,6 +1,6 @@
 # roblox-utils
 
-A mishmash of modules ranging from novelty trinkets to genuinely useful doodads for Roblox development.
+A mishmash of strictly typed modules ranging from novelty trinkets to genuinely useful doodads for Roblox development.
 
 I will let fate decide which is which for now.
 
@@ -12,30 +12,27 @@ I will let fate decide which is which for now.
 | [Cache]        | Class   | Cache objects across modules               |
 | [Rand]         | Class   | [Random] wrapper                           |
 | [Semaphore]    | Class   | Manage shared resources                    |
-| [StrokeScaler] | Service | Dynamically scale [UIStroke] thickness     |
-| [Table]        | Utility | Extension of the [table][tableLib] library |
+| [Table]        | Library | Extension of the [table][table*] library   |
 | [Timer]        | Class   | Track time and schedule events             |
-| [Tween]        | Utility | [TweenService] wrapper                     |
+| [Tween]        | Library | [TweenService] wrapper                     |
 
 ### Definitions
 
 - **Class:** object-oriented data type instantiated with a constructor like `.new()`
+- **Library:** collection of related functions 
 - **Service:** singleton that imitates a [Roblox service], initialized with `:Start()`
-- **Utility:** library of functions 
 
 
 [Bezier]: src/Bezier.luau
 [Cache]: src/Cache.luau
 [Rand]: src/Rand.luau
 [Semaphore]: src/Semaphore.luau
-[StrokeScaler]: src/ui/StrokeScaler.luau
 [Table]: src/Table.luau
 [Timer]: src/Timer.luau
 [Tween]: src/Tween.luau
 
 [Bézier curve]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve
 [Random]: https://create.roblox.com/docs/reference/engine/datatypes/Random
-[UIStroke]: https://create.roblox.com/docs/reference/engine/classes/UIStroke
-[tableLib]: https://create.roblox.com/docs/reference/engine/libraries/table
+[table*]: https://create.roblox.com/docs/reference/engine/libraries/table
 [TweenService]: https://create.roblox.com/docs/reference/engine/classes/TweenService
 [Roblox service]: https://create.roblox.com/docs/scripting/services
